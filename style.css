@@ -1,0 +1,217 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #260c77c1;
+}
+
+header {
+    background-color: #c37575;
+    color: rgb(19, 2, 2);
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #a6a6dd;
+    border-radius: 8px;
+}
+
+
+#personal-info {
+    text-align: center;
+}
+ h2{
+    text-align: center;
+}
+
+
+#about-me p {
+  
+    margin: 0 auto;
+    text-align: center;
+}
+#skills {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.meet {
+    display: center;
+    justify-content: space-between;
+}
+
+.skills {
+    flex: 1 1 calc(30% - 20px);
+    margin: 10px;
+    background-color: #cbafaf;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+
+  h3 {
+    color: #080709; 
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    padding: 5px 0;
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+
+
+#projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #e0e0e0ec;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+#education-experience {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+ .education, .experience {
+    background-color: #e0e0e0de;
+    margin: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+} 
+.education{
+    margin-left: 160px;
+}
+.meet{
+    display: flex;
+}
+
+ 
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#contact form label {
+    margin-top: 20px;
+}
+#contact form input, #contact form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+#contact form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #a33535;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#contact form button:hover {
+    background-color: #071b77;
+}
+#projects .button{
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+}
+#projects .button:hover{
+    scale: 1.1;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #df6161;
+    color: white;
+}
+#personal-info:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(162, 189, 11, 0.3);
+
+}
+#about-me:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(162, 189, 11, 0.3);
+}
+#skills:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(63, 64, 57, 0.3);
+
+}
+h2 {
+   align-items: center;
+}
+#projects:hover {
+    transform: scale(1.02);
+  
+}
+#education-experience{
+    box-shadow: 20 px 5px;
+    padding: 10px;
+   margin-top: 10px;
+}
+#education-experience:hover {
+    transform: scale(1.02);
+
+}
+h3:hover {
+    transform: scale(1.02);
+   
+}
+#contact:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(210, 215, 181, 0.3);
+}
+#profil-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(171, 139, 139);
+
+}
